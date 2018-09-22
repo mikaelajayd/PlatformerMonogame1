@@ -25,3 +25,16 @@ C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonoga
 C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\obj\x86\Debug\PlatformerMonogame1.csproj.CopyComplete
 C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\obj\x86\Debug\PlatformerMonogame1.exe
 C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\obj\x86\Debug\PlatformerMonogame1.pdb
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Content\Level1.xnb
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Content\Tileset.xnb
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.dll
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.Graphics.dll
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.dll
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Newtonsoft.Json.dll
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.pdb
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.xml
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.Graphics.pdb
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.Graphics.xml
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.pdb
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.xml
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="64" tileheight="64" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="CastleTiles.tsx"/>
+ <layer name="Background" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzjZGBg4KQCFsRB41OLTx26OLHq0OXwyZNiFi0wNvuIDTdS3Y4vLLDJEVJPrzDDlZ7IsZfabqV3ehnFDAwAjp0LbQ==
+  </data>
+ </layer>
+ <layer name="Decorations" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAAdgbsQJ0IcQk0OWccesg1Dx+A6eOgsnkg4IxFnJ1E84gB6OahhxGuMMMFFJDYHFj065NoHjoA6ccXx4MRoKePwQSGWlgOFAAA3xgD1g==
+  </data>
+ </layer>
+ <layer name="Collisions" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwTYWBgUGOgDhACYhEg1qOieTJArAXE3FDMA8SuUEyOedJQDDR3ARAfkEEyW5YM87Sh2BaIbZD4IKwLVWcJxFZYsB0W86gJKDWPH4i5GBDhI0WheeIM8DgFh700Dnt4SDcPhBOkMcXB9ogQaZ48VJ8wAyKdYLMHm3lcDKhpE+YfKSzmodsjgmYOTB9y2pRCMgPZPC4s8uj6hInAML1CRKofKPMAGV0Umw==
+  </data>
+ </layer>
+</map>

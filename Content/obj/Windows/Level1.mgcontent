@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/Level1.tmx</SourceFile>
+  <SourceTime>2018-09-22T16:50:10.7894346+08:00</SourceTime>
+  <DestFile>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/bin/Windows/Level1.xnb</DestFile>
+  <DestTime>2018-09-22T16:52:07.6039468+08:00</DestTime>
+  <Importer>TiledMapImporter</Importer>
+  <ImporterTime>2018-05-23T11:26:24+08:00</ImporterTime>
+  <Processor>TiledMapProcessor</Processor>
+  <ProcessorTime>2018-05-23T11:26:24+08:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
