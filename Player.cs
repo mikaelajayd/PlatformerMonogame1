@@ -15,10 +15,9 @@ namespace PlatformerMonogame1
         public Sprite playerSprite = new Sprite();
 
         Game1 game = null;
-
         float runSpeed = 15000;
 
-        Collision collision = new Collision();
+        Collision collision = new Collision();  
 
         public Player()
         {
@@ -27,18 +26,28 @@ namespace PlatformerMonogame1
 
         public void Load(ContentManager content, Game1 theGame)
         {
-            playerSprite.Load(content, "hero");
+            playerSprite.Load(content, "hero", false);
             game = theGame;
-            //Sets Players' velocity to 0 so they start off with no movement 
             playerSprite.velocity = Vector2.Zero;
-            //Sets Players' X position to centre of screen, 
-            //and Y position to the top
-            playerSprite.position = new Vector2(theGame.GraphicsDevice.Viewport.Width / 2, 0);
+            playerSprite.position = new Vector2(theGame.GraphicsDevice.Viewport.Width / 19, 729);
+        }
+
+        public void Update (float deltaTime)
+        {
+            UpdateInput(deltaTime);
+            playerSprite.Update(deltaTime);
+            playerSprite.UpdateHitBox();
+        }
+
+        public void Draw (SpriteBatch spriteBatch)
+        {
+            playerSprite.Draw(spriteBatch);
         }
 
         private void UpdateInput(float deltaTime)
         {
             Vector2 localAcceleration = new Vector2(0, 0);
+
             if (Keyboard.GetState().IsKeyDown(Keys.Left) == true)
             {
                 localAcceleration.X = -runSpeed;
@@ -59,32 +68,12 @@ namespace PlatformerMonogame1
                 localAcceleration.Y = runSpeed;
             }
 
-            foreach (Sprite tile in game.allCollisionTiles)
-            {
-                if (collision.IsColliding(playerSprite, tile) == true)
-                {
-                    int testVariable = 0;
-                }
-            }
-
-            //Ensures player is moving smoothly across screen
             playerSprite.velocity = localAcceleration * deltaTime;
             playerSprite.position += playerSprite.velocity * deltaTime;
 
+            collision.game = game;       
+            playerSprite = collision.CollideWithPlatforms(playerSprite, deltaTime); 
         }
 
-        public void Update(float deltaTime)
-        {
-
-            UpdateInput(deltaTime);
-            playerSprite.Update(deltaTime);
-            playerSprite.UpdateHitBox();
-
-        }
-
-        public void Draw(SpriteBatch spriteBatch)
-        {
-            playerSprite.Draw(spriteBatch);
-        }
     }
 }

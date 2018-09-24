@@ -107,7 +107,7 @@ namespace PlatformerMonogame1
         protected override void Draw(GameTime gameTime)
         {
             //Clears anything previously drawn to screen
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             var viewMatrix = camera.GetViewMatrix();
             var projectionMatrix = Matrix.CreateOrthographicOffCenter(0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height, 0, 0f, -1f);
@@ -132,16 +132,20 @@ namespace PlatformerMonogame1
             levelTileHeight = map.Height;
             levelTileWidth = map.Width;
             levelGrid = new Sprite[levelTileWidth, levelTileHeight];
+
             foreach (TiledMapTileLayer layer in map.TileLayers)
             {
-                if (layer.Name == "Collisions") collisionLayer = layer;
+                if (layer.Name == "Collisions")
+                {
+                    collisionLayer = layer;
+                }
             }
 
             int columns = 0;
             int rows = 0;
             int loopCount = 0;
 
-            while (loopCount < collisionLayer.Tiles.Count)
+            while(loopCount < collisionLayer.Tiles.Count)
             {
                 if (collisionLayer.Tiles[loopCount].GlobalIdentifier != 0)
                 {
@@ -153,7 +157,6 @@ namespace PlatformerMonogame1
                     tileSprite.UpdateHitBox();
                     allCollisionTiles.Add(tileSprite);
                     levelGrid[columns, rows] = tileSprite;
-
                 }
 
                 columns++;

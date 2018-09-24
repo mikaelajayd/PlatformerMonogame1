@@ -11,9 +11,14 @@
    eJxjYEAAdgbsQJ0IcQk0OWccesg1Dx+A6eOgsnkg4IxFnJ1E84gB6OahhxGuMMMFFJDYHFj065NoHjoA6ccXx4MRoKePwQSGWlgOFAAA3xgD1g==
   </data>
  </layer>
+ <layer name="Hazards" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh6wBWKR8EoGGxgNG3SFgAA5j4BFQ==
+  </data>
+ </layer>
  <layer name="Collisions" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJwTYWBgUGOgDhACYhEg1qOieTJArAXE3FDMA8SuUEyOedJQDDR3ARAfkEEyW5YM87Sh2BaIbZD4IKwLVWcJxFZYsB0W86gJKDWPH4i5GBDhI0WheeIM8DgFh700Dnt4SDcPhBOkMcXB9ogQaZ48VJ8wAyKdYLMHm3lcDKhpE+YfKSzmodsjgmYOTB9y2pRCMgPZPC4s8uj6hInAML1CRKofKPMAGV0Umw==
+   eJwTYWBgUGOgDhACYhEg1qOieTJArAXE3FDMQ6F50lAMNHcBEB+QQTJblgzztKHYFohtkPggrAtVZwnEVliwHRbzqAkoNY8fiLkYEOEjRaF54gzwOAWHvTQOe4iNYyTzQDhBGlMcbI8IkebJQ/UJMyDSCTZ7sJnHheZumH+ksJiHbo8IDn3IaVMKyQxk87iwyKPrEyYCw/QKEal+oMwDADfAE4c=
   </data>
  </layer>
 </map>
