@@ -26,7 +26,15 @@ namespace PlatformerMonogame1
 
         public void Load(ContentManager content, Game1 theGame)
         {
-            playerSprite.Load(content, "hero", false);
+            playerSprite.Load(content, "hero", true);
+            
+            AnimatedTexture animation = new AnimatedTexture(playerSprite.offset, 0, 1, 1);
+            animation.Load(content, "walk", 12, 20);
+            playerSprite.AddAnimation(animation, 0, 0);
+            playerSprite.Pause();
+
+            //playerSprite.offset = new Vector2(24, 24);
+
             game = theGame;
             playerSprite.velocity = Vector2.Zero;
             playerSprite.position = new Vector2(theGame.GraphicsDevice.Viewport.Width / 19, 729);
@@ -51,11 +59,15 @@ namespace PlatformerMonogame1
             if (Keyboard.GetState().IsKeyDown(Keys.Left) == true)
             {
                 localAcceleration.X = -runSpeed;
+                playerSprite.SetFlipped(true);
+                playerSprite.Play();
             }
 
             if (Keyboard.GetState().IsKeyDown(Keys.Right) == true)
             {
                 localAcceleration.X = runSpeed;
+                playerSprite.SetFlipped(false);
+                playerSprite.Play();
             }
 
             if (Keyboard.GetState().IsKeyDown(Keys.Up) == true)
@@ -66,6 +78,11 @@ namespace PlatformerMonogame1
             if (Keyboard.GetState().IsKeyDown(Keys.Down) == true)
             {
                 localAcceleration.Y = runSpeed;
+            }
+
+            if (Keyboard.GetState().IsKeyUp(Keys.Left) == true && Keyboard.GetState().IsKeyUp(Keys.Right) == true)
+            {
+                playerSprite.Pause();
             }
 
             playerSprite.velocity = localAcceleration * deltaTime;

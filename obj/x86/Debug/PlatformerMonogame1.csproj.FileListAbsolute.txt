@@ -38,3 +38,4 @@ C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonoga
 C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.pdb
 C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.xml
 C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Newtonsoft.Json.xml
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Content\walk.xnb

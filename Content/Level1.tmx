@@ -16,9 +16,14 @@
    eJxjYBh6wBWKR8EoGGxgNG3SFgAA5j4BFQ==
   </data>
  </layer>
+ <layer name="Interactables" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwwXwU9k8cSrbg8s8XOL0Nk8ej3nkmkmKPaOAMAAA7lcA/g==
+  </data>
+ </layer>
  <layer name="Collisions" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJwTYWBgUGOgDhACYhEg1qOieTJArAXE3FDMQ6F50lAMNHcBEB+QQTJblgzztKHYFohtkPggrAtVZwnEVliwHRbzqAkoNY8fiLkYEOEjRaF54gzwOAWHvTQOe4iNYyTzQDhBGlMcbI8IkebJQ/UJMyDSCTZ7sJnHheZumH+ksJiHbo8IDn3IaVMKyQxk87iwyKPrEyYCw/QKEal+oMwDADfAE4c=
+   eJwTYWBgUGOgDhACYhEg1qOieTJArAXE3FDMQ6F50lAMNHcBEB+QQTJblgzztKHYFohtkPggrAtVZwnEVliwHRbzqAmoYR4XAyJ8pKhgHjROwWEvjcMeUuIYlkaAOEEaUxxsjwiJ5gkzINIJNnuwmceF5m6Yf6TwmAcTF8GhDzltSiGZgWweFxZ5dH3CRGCYXiEi1Q+UeQDn4hLP
   </data>
  </layer>
 </map>
