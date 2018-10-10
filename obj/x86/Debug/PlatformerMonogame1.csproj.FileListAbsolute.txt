@@ -39,3 +39,9 @@ C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonoga
 C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.xml
 C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Newtonsoft.Json.xml
 C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Content\walk.xnb
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Content\heart.xnb
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Content\Jump.xnb
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Content\SuperHero_original_no_Intro.wma
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Content\SuperHero_original_no_Intro.xnb
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Content\chest.xnb
+C:\Users\mikae\Desktop\GD Software\Projects\PlatformerMonogame1\PlatformerMonogame1\bin\Windows\x86\Debug\Content\zombie.xnb

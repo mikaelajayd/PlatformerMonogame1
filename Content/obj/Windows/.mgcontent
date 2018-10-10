@@ -5,9 +5,14 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/hero.png</File>
-    <File>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/Arial.spritefont</File>
     <File>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/Level1.tmx</File>
     <File>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/Tileset.png</File>
     <File>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/walk.png</File>
+    <File>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/Arial.spritefont</File>
+    <File>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/Jump.wav</File>
+    <File>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/SuperHero_original_no_Intro.ogg</File>
+    <File>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/heart.png</File>
+    <File>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/chest.png</File>
+    <File>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/zombie.png</File>
   </SourceFiles>
 </SourceFileCollection>

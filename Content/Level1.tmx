@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="64" tileheight="64" infinite="0" nextobjectid="1">
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="24" height="19" tilewidth="64" tileheight="64" infinite="0" nextobjectid="13">
  <tileset firstgid="1" source="CastleTiles.tsx"/>
- <layer name="Background" width="20" height="15">
+ <layer name="Background" width="24" height="19">
   <data encoding="base64" compression="zlib">
-   eJzjZGBg4KQCFsRB41OLTx26OLHq0OXwyZNiFi0wNvuIDTdS3Y4vLLDJEVJPrzDDlZ7IsZfabqV3ehnFDAwAjp0LbQ==
+   eJxjYEAATiB2YWBYwAllk4txAUrMBLrrAD7zSTQLpx8FcdghiCaPTy8+dbjMJ1YfLjl0eVLCB5/ZxMYxJXGLzX4Y4CPS/6TK4XI7LCxdcJiFbh42MVzmE5M+0NLpAWLCn5QwxuZ+Ss2HmQF0bwI56Yec9EFN88nB6GDUfPzmD1UAAPjWEYA=
   </data>
  </layer>
- <layer name="Decorations" width="20" height="15">
+ <layer name="Decorations" width="24" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYEAAdgbsQJ0IcQk0OWccesg1Dx+A6eOgsnkg4IxFnJ1E84gB6OahhxGuMMMFFJDYHFj065NoHjoA6ccXx4MRoKePwQSGWlgOFAAA3xgD1g==
+   eJxjYEAANQbCQJ0AHx8Amc9OY/MJAUrM14PSzjQynxgAMo+DxuaDgDMaHwQIxR09AC3DlwOLefpUNJ8W5g0EQE//HFhVDQ2ALy+PglEAAEOlBHo=
   </data>
  </layer>
- <layer name="Hazards" width="20" height="15">
+ <layer name="Hazards" width="24" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBh6wBWKR8EoGGxgNG3SFgAA5j4BFQ==
+   eJxjYBgFgxW4QvEoGAWjgD5gNM+NAmQAABr8ARU=
   </data>
  </layer>
- <layer name="Interactables" width="20" height="15">
+ <layer name="Collisions" width="24" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwwXwU9k8cSrbg8s8XOL0Nk8ej3nkmkmKPaOAMAAA7lcA/g==
+   eJzVk0EOgjAQRWcNrtQVU1fuNB5Agp7Fo3EUjubUdOJ3qIGkUxMneaFA+lo+UyYiFvbkV1thlwhEozBV9Ece3n7dN6d1Kvhf+1Z/vD8JbWJT6Nd82Iz1uwKsdSjwH4UzXG/CkMbKBeZehR64L/hrFPpLcsZq6J1nB36vvsn1pJc/7r2jeU+W+jUTzIPpsyetH3Nc+jeYyVo/zsF3jVnvWybWj+eoNXNC5nmuRxDr9+bf/b/mCUvcH6c=
   </data>
  </layer>
- <layer name="Collisions" width="20" height="15">
-  <data encoding="base64" compression="zlib">
-   eJwTYWBgUGOgDhACYhEg1qOieTJArAXE3FDMQ6F50lAMNHcBEB+QQTJblgzztKHYFohtkPggrAtVZwnEVliwHRbzqAmoYR4XAyJ8pKhgHjROwWEvjcMeUuIYlkaAOEEaUxxsjwiJ5gkzINIJNnuwmceF5m6Yf6TwmAcTF8GhDzltSiGZgWweFxZ5dH3CRGCYXiEi1Q+UeQDn4hLP
-  </data>
- </layer>
+ <objectgroup color="#a00000" name="Enemies">
+  <object id="2" x="990" y="370"/>
+  <object id="10" x="1319" y="497"/>
+  <object id="12" x="482" y="752"/>
+ </objectgroup>
+ <objectgroup color="#00a000" name="Goal">
+  <object id="5" x="286" y="220" rotation="180"/>
+ </objectgroup>
 </map>

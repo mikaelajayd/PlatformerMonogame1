@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/Tileset.png</SourceFile>
-  <SourceTime>2018-09-22T16:43:31.4830832+08:00</SourceTime>
-  <DestFile>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/bin/Windows/Tileset.xnb</DestFile>
-  <DestTime>2018-10-10T18:22:37.0666609+08:00</DestTime>
+  <SourceFile>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/chest.png</SourceFile>
+  <SourceTime>2018-10-10T18:09:22.0889822+08:00</SourceTime>
+  <DestFile>C:/Users/mikae/Desktop/GD Software/Projects/PlatformerMonogame1/PlatformerMonogame1/Content/bin/Windows/chest.xnb</DestFile>
+  <DestTime>2018-10-10T18:22:38.7960385+08:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T23:05:36+08:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
